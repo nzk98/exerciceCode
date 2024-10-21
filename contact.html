@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice3</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="video.html">Vidéo</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="audio.html">Audio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="tirage.php" method="post" enctype="multipart/form-data"></form>
+        <div>
+        <label for="nom">Votre nom</label>
+        <input type="text" id="nom" placeholder="Zinck">
+    </div>
+    <div>
+        <label for="email">Votre E-mail</label>
+        <input type="email" id="email" placeholder="azerty@azerty.fr">
+    </div>
+    
+        <fieldset>
+            <legend>Genre</legend>
+        <input type="radio" id="homme" value="homme"><label for="homme">Homme</label>
+        <input type="radio" id="femme" value="femme"><label for="femme">Femme</label>
+        <input type="radio" id="autre" value="autre"><label for="autre">Autre</label>
+    </fieldset>
+    <div>
+        <label for="newsletter">Newsletter</label>
+        <input type="checkbox" id="newsletter">
+    </div>
+    <div>
+        <label for="envoyer">Envoyer</label>
+        <input type="submit" id="envoyer">
+    </div>
+    </main>
+    <footer>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="video.html">Vidéo</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="audio.html">Audio</a></li>
+            </ul>
+        </nav>
+        <a href="impot.gouv"><small>Mention legale</small></a>
+        <p>Nous conctater</p>
+        <address>
+            <a href="azerty@azerty.fr">azerty@azerty.fr</a>
+        </address>
+    </footer>
+</body>
+</html>
